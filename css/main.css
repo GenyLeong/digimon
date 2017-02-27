@@ -543,12 +543,15 @@ iframe{
     #issues li {
         left: 42px;
     }
-
+    
+    h1 img {
+    float: none;
+    }
 }
 
-@media only screen and (max-width: 358px) and (min-width: 321px) {
+@media only screen and (max-width: 360px) and (min-width: 321px) {
     .content-gris {
-        width: 35%;
+        width: 37%;
     }
 
     #next,
@@ -557,7 +560,7 @@ iframe{
     }
 
     #issues li{
-        left: 45px;
+        left: 50px;
     }
     #issues li h3 {
         width: 38%;
@@ -567,9 +570,7 @@ iframe{
         margin-right: 459px;
         width: 37%;
     }
-    h1 img {
-    float: none;
-    }
+    
 }
 
 @media screen and (max-width: 320px) {
