@@ -503,18 +503,18 @@ iframe{
     }    
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .content-gris {
         width: 44%;
     }
     
     #issues li h3 {
-        width: 44%;
+        width: 47%;
     }
 
     #issues li p {
         margin-right: 443px;
-        width: 41%;
+        width: 45%;
     }
     
     #issues {
@@ -522,7 +522,7 @@ iframe{
     }
 
     #issues li {
-        left: 40px;
+        left: 50px;
     }
 
     #next,
@@ -536,6 +536,14 @@ iframe{
     h1 img{
         width: 6rem;
     }
+}
+
+@media screen and (max-width: 400px) {
+
+    #issues li {
+        left: 42px;
+    }
+
 }
 
 @media only screen and (max-width: 358px) and (min-width: 321px) {
